@@ -1,0 +1,32 @@
+<!ELEMENT census-record (date, address, person+)>
+<!ATTLIST census-record 
+  taker   CDATA   #REQUIRED>
+
+<!-- date the info was collected -->
+<!ELEMENT date (year, month, day)>
+<!ELEMENT year #PCDATA>
+<!ELEMENT month #PCDATA>
+<!ELEMENT day #PCDATA>
+
+<!-- address information -->
+<!ELEMENT address 
+  (street, city, county, country, postalcode)>
+<!ELEMENT street (#PCDATA | unit)*>
+<!ELEMENT city #PCDATA>
+<!ELEMENT county #PCDATA>
+<!ELEMENT country #PCDATA>
+<!ELEMENT postalcode #PCDATA>
+<!ELEMENT unit #PCDATA>
+
+<!-- person information -->
+<!ELEMENT person (name, age, gender)>
+<!ELEMENT name (first, last, (junior | senior)?)>
+<!ELEMENT age #PCDATA>
+<!ELEMENT gender #PCDATA>
+<!ELEMENT first #PCDATA>
+<!ELEMENT last #PCDATA>
+<!ELEMENT junior EMPTY>
+<!ELEMENT senior EMPTY>
+<!ATTLIST person
+    pid       ID                   #REQUIRED
+    employed  (fulltime|parttime)  #IMPLIED>

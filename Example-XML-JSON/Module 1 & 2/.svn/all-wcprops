@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/courseware/!svn/ver/6/ACCP2007/SEM2/XML%20By%20Example/Demo/New/Class%20demo/Module%201%20&%202
+END
+cd_catalog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/courseware/!svn/ver/6/ACCP2007/SEM2/XML%20By%20Example/Demo/New/Class%20demo/Module%201%20&%202/cd_catalog.xml
+END
+note.dtd
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/courseware/!svn/ver/6/ACCP2007/SEM2/XML%20By%20Example/Demo/New/Class%20demo/Module%201%20&%202/note.dtd
+END
+employee_prefix_namspace.xml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/courseware/!svn/ver/6/ACCP2007/SEM2/XML%20By%20Example/Demo/New/Class%20demo/Module%201%20&%202/employee_prefix_namspace.xml
+END
+note.xml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/courseware/!svn/ver/6/ACCP2007/SEM2/XML%20By%20Example/Demo/New/Class%20demo/Module%201%20&%202/note.xml
+END
+breakfast_menu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/courseware/!svn/ver/6/ACCP2007/SEM2/XML%20By%20Example/Demo/New/Class%20demo/Module%201%20&%202/breakfast_menu.xml
+END
+note_in_DTD.xml
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/courseware/!svn/ver/6/ACCP2007/SEM2/XML%20By%20Example/Demo/New/Class%20demo/Module%201%20&%202/note_in_DTD.xml
+END
+breakfast_menu_in_DTD.xml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/courseware/!svn/ver/6/ACCP2007/SEM2/XML%20By%20Example/Demo/New/Class%20demo/Module%201%20&%202/breakfast_menu_in_DTD.xml
+END
+part_catalog_with_2_namespace.xml
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/courseware/!svn/ver/6/ACCP2007/SEM2/XML%20By%20Example/Demo/New/Class%20demo/Module%201%20&%202/part_catalog_with_2_namespace.xml
+END
+employee_default_namspace.xml
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/courseware/!svn/ver/6/ACCP2007/SEM2/XML%20By%20Example/Demo/New/Class%20demo/Module%201%20&%202/employee_default_namspace.xml
+END
+note_ex_dtd.xml
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/courseware/!svn/ver/6/ACCP2007/SEM2/XML%20By%20Example/Demo/New/Class%20demo/Module%201%20&%202/note_ex_dtd.xml
+END
+note_error.xml
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/courseware/!svn/ver/6/ACCP2007/SEM2/XML%20By%20Example/Demo/New/Class%20demo/Module%201%20&%202/note_error.xml
+END
