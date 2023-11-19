@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://xml21"
+           xmlns="http://xml21"
+           elementFormDefault="qualified">
+    <!-- Define the complex type for the document element -->
+    <xs:element name="document" type="DocumentType"/>
+    <!-- Define the complex type for the document element content -->
+    <xs:complexType name="DocumentType">
+        <xs:sequence>
+            <!-- Define the movieTitle element with content type xsd:string -->
+            <xs:element name="movieTitle" type="xs:string"/>
+            <!-- Define the movieLength element with content type xsd:int -->
+            <xs:element name="movieLength" type="xs:int"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

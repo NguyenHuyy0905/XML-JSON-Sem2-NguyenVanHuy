@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DebtTracking xmlns="http://yournamespace.com/debt" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://yournamespace.com/debt debt_tracking.xsd">
+    <Friend>
+        <Name>Alice</Name>
+        <AmountOwed>2000</AmountOwed>
+    </Friend>
+    <Friend>
+        <Name>Bob</Name>
+        <AmountOwed>450000</AmountOwed>
+    </Friend>
+    <!-- Add more Friend elements as needed -->
+</DebtTracking>

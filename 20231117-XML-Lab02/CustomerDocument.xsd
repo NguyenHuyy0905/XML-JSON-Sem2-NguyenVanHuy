@@ -5,8 +5,8 @@ xmlns="http://xmlpowercorp"
 elementFormDefault="qualified">
     <xsd:annotation>
         <xsd:documentation>
-Mortgage record XML schema.
-</xsd:documentation>
+        Mortgage record XML schema.
+        </xsd:documentation>
     </xsd:annotation>
     <xsd:element name="document" type="documentType"/>
     <xsd:complexType name="documentType">
@@ -34,10 +34,8 @@ use="optional"/>
                 <xsd:complexType>
                     <xsd:sequence>
                         <xsd:element name="property" type="xsd:string"/>
-                        <xsd:element name="date" type="xsd:date"
-minOccurs="0"/>
-                        <xsd:element name="loanAmount"
-type="xsd:decimal"/>
+                        <xsd:element name="date" type="xsd:date" minOccurs="0"/>
+                        <xsd:element name="loanAmount" type="xsd:decimal"/>
                         <xsd:element name="term">
                             <xsd:simpleType>
                                 <xsd:restriction base="xsd:integer">
@@ -46,8 +44,7 @@ type="xsd:decimal"/>
                             </xsd:simpleType>
                         </xsd:element>
                     </xsd:sequence>
-                    <xsd:attribute name="loanNumber"
-type="loanNumberType"/>
+                    <xsd:attribute name="loanNumber" type="loanNumberType"/>
                 </xsd:complexType>
             </xsd:element>
         </xsd:sequence>

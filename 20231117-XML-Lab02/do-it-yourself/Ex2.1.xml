@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE Person [
+<!ELEMENT Person (Name, Date?, Sex)>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Date (#PCDATA)>
+<!ELEMENT Sex (#PCDATA)>
+<!ATTLIST Person name CDATA #REQUIRED>
+<!ATTLIST Person date CDATA #IMPLIED>
+<!ATTLIST Person sex (male|female) "male">
+]>
+<Person name="John Doe" date="4/1/05" sex="male">
+    <Name>John Doe</Name>
+    <Date>4/1/05</Date>
+    <Sex>male</Sex>
+</Person>
